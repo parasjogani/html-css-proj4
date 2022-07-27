@@ -1,0 +1,89 @@
+.container {
+    height: 100vh;
+    font-family: "poppins";
+}
+
+.navbar-container {
+    display: flex;
+    align-items: center;
+    height: 20vh;
+    margin: 0 75px 50px;
+}
+
+nav img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav .list {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav .nav-button {
+    padding: 3px 25px;
+    line-height: 36px;
+    font-size: 12px;
+    border: 0;
+    border-radius: 8px;
+    margin-left: 15px;
+    color: #ffffff;
+    background-color: #5e35b5;
+}
+
+.button-group {
+    margin-left: auto;
+}
+
+.list-item {
+    margin: 0 25px;
+    color: #7b7474;
+    font-weight: 450;
+}
+
+.list-item:hover {
+    color: #000000;
+}
+
+.banner-container {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.heading-text {
+    font-size: 62px;
+    color: #191971;
+}
+
+span {
+    color: #4848cf;
+}
+
+.banner-container img {
+    position: absolute;
+    width: 900px;
+    right: 0%;
+    margin-top: -22px;
+}
+
+.left-side {
+    width: 400px;
+    margin-left: 75px;
+}
+
+.description {
+    color: #7b7474;
+}
+
+.nav-button.btn {
+    
+    padding: 12px 48px;
+    line-height: 36px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    margin-top: 48px;
+    color: #ffffff;
+    background-color: #5e35b5;
+}
